@@ -4,4 +4,5 @@ I "encrypted" the text by converting every character in the string into an 8-bit
 
 # How to use
 
+The only package you need to install is pygame. Go to cmd.exe, and type: "python -m pip install pygame" to install it. 
 The writer takes in a string and creates an encoded image named "coded.png" if it doesn't already exist. If it does, then it overwrites it. The reader reads the "coded.png" file and prints out the encoded string.

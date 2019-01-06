@@ -6,3 +6,9 @@ I "encrypted" the text by converting every character in the string into an 8-bit
 
 The only package you need to install is pygame. Go to cmd.exe, and type: "python -m pip install pygame" to install it. 
 The writer takes in a string and creates an encoded image named "coded.png" if it doesn't already exist. If it does, then it overwrites it. The reader reads the "coded.png" file and prints out the encoded string.
+
+
+
+
+# Future Thinkings
+If the resolution of the image was x by y, then the pixels would be xy. Therefore, if I wanted to know the size of the text hidden, I could simply set away log 2 (xy))/6 pixels to print the text size(the R, G, B would change their last 2 digits for the digits of the text size). This not only would optimize the code by 33% by incorporating the use of B as another ASCII code holder, but also make the code less complicated.
